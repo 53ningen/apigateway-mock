@@ -23,8 +23,9 @@ tfenv install
 ### create Mock APIs
 
 ```
-terraform env new {:env_name}
-terraform env select {:env_name}
+terraform workspace new {:workspace_name}
+terraform workspace select {:workspace_name}
 terraform plan
 terraform apply
 ```
+
